@@ -1,0 +1,192 @@
+.chapter3 .comment-modal{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    box-shadow: 0px 0px 5px black;
+    gap: 10px;
+    padding: 15px 0;
+} 
+
+.chapter3 .comment-modal .comment-container{
+    display: flex;
+    gap: 15px;
+}
+
+.chapter3 .comment-modal .comment-is-property {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 0 2px black;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .edit-delete {
+    display: flex;
+    gap: 1rem;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .edit-comment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    color: #0079FF;
+    cursor: pointer;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .edit-comment img {
+    height: 17px;
+    object-fit: scale-down;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .delete-comment {
+    background: #FEF1EF;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .delete-comment img {
+    object-fit: scale-down;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coment .img-comment {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coments {
+    padding: 5px;
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coments .name-comment {
+    color: #222222
+}
+
+.chapter3 .comment-modal .comment-is-property .user-coments .comentario {
+    color: #999999;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments .sub-reply {
+    display: flex;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments .sub-reply .subcomment {
+    width: 40px;
+    padding: 10px;
+    object-fit: scale-down;
+    cursor: pointer;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments .sub-reply .reply-comment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    color: #0079FF;
+    cursor: pointer;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments .sub-reply .reply-comment img {
+    height: 17px;
+    object-fit: scale-down;
+}
+
+.chapter3 .comment-modal .comment-is-property .sub_comments .time {
+    color: #999999;
+}
+
+.comment-modal .flechas{
+    display: flex;
+    gap: 45px;
+    margin-top: 5px;
+}
+
+.comment-modal .flechas>img{
+    width: 30px;
+    height: 30px;
+}
+
+.comment-modal .new-comment{
+    display: flex;
+    height: 58px;
+    background-color: #F1F1F3;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.comment-modal .new-comment input{
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 30px;
+}
+
+.comment-modal .new-comment img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.comment-modal .modal-btns{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.comment-modal .modal-btns>p{
+    text-decoration: none;
+    background: #F472B6;
+    width: 92px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 50px;
+    color: #EFEFEF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 95.19%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .chapter3 .comment-modal .comment-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

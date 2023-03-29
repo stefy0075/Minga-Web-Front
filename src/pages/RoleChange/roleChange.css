@@ -1,0 +1,14 @@
+.newrole {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.author-company{
+  width: 50vw;
+}
+
+@media (min-width:320px) and (max-width:999px){
+  .newrole{
+      justify-content: center;
+  }
+}

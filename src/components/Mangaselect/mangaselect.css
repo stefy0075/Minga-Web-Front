@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+select {
+    width: 384px;
+    border: none;
+    border-bottom: 1px solid #424242;
+    color: #7f7e7e;
+    padding-left: .6rem;
+}

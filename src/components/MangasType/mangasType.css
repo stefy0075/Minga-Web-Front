@@ -1,0 +1,67 @@
+.mangas .mangas-displayed .mangas-type{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.mangas .mangas-displayed .mangas-type .category-shonen,
+.mangas .mangas-displayed .mangas-type .category-comic,
+.mangas .mangas-displayed .mangas-type .category-shojo,
+.mangas .mangas-displayed .mangas-type .category-seinen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 71px;
+    height: 35px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 95.19%;
+}
+
+.mangas .mangas-displayed .mangas-type .category-shonen:hover,
+.mangas .mangas-displayed .mangas-type .category-comic:hover,
+.mangas .mangas-displayed .mangas-type .category-shojo:hover,
+.mangas .mangas-displayed .mangas-type .category-seinen:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.mangas .mangas-displayed .mangas-type .category-shonen{
+    background: #FFE0DF;
+    color: #EF8481;
+}
+
+.mangas .mangas-displayed .mangas-type .category-seinen{
+    background: #FFDFC8;
+    color: #FC9C57;
+}
+
+.mangas .mangas-displayed .mangas-type .category-shojo{
+    background: #D1FBF0;
+    color: #00BA88;
+}
+
+.mangas .mangas-displayed .mangas-type .category-comic{
+    background: #E0DBFF;
+    color: #8883F0;
+}
+
+.checked{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1) !important;
+}
+
+.mangas .mangas-displayed .mangas-type .mangas-sort:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 768px){
+    .mangas .mangas-displayed .mangas-type .category-shonen, .mangas .mangas-displayed .mangas-type .category-comic, .mangas .mangas-displayed .mangas-type .category-shojo, .mangas .mangas-displayed .mangas-type .category-seinen{
+        width: 52px;
+    }
+}

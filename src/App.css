@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.noLogged {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.noLogged a {
+  width: 50vw;
+  height: 10vh;
+  background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+  border-radius: 50000px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 17px;
+  color: #EBEBEB;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  margin: 0 auto;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+#hero{
+    margin: 0 5.688rem;
+    height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #hero{
+        margin: 0;
+        background: url(../../images/narutolong.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

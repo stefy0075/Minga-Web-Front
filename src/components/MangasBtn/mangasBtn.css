@@ -1,0 +1,29 @@
+.mangas .mangas-displayed .page-btns{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mangas .mangas-displayed .page-btns .btn-prev,
+.mangas .mangas-displayed .page-btns .btn-next{
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    border-radius: 50000px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.mangas .mangas-displayed .page-btns .prev:hover,
+.mangas .mangas-displayed .page-btns .next:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}

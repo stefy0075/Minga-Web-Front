@@ -1,0 +1,62 @@
+.mangas .mangas-displayed .mangas-categories{
+    display: none;
+    gap: 12px;
+    justify-content: start;
+}
+
+.mangas .mangas-displayed .mangas-categories .category1{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/adventures-background.png) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+.mangas .mangas-displayed .mangas-categories .category2{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/nostalgic-background.png) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+.mangas .mangas-displayed .mangas-categories .category3{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/popular-background.png) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+.mangas .mangas-displayed .mangas-categories .category1 h2,
+.mangas .mangas-displayed .mangas-categories .category2 h2,
+.mangas .mangas-displayed .mangas-categories .category3 h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 95.19%;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px){
+    .mangas .mangas-displayed .mangas-categories{
+        display: flex;
+    }
+}

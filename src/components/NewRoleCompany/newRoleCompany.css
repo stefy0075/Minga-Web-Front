@@ -1,0 +1,86 @@
+.newrole .join-company {
+  border: 1px solid grey;
+  width: 530px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.newrole .join-company:hover {
+  border: 3px solid rgb(245, 118, 184);
+  cursor: pointer;
+
+}
+
+.newrole .join-company .selec-company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.newrole .join-company .selec-company h3 {
+  width: 100%;
+  color: rgb(245, 118, 184);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+
+.newrole .join-company .selec-company p {
+  width: 100%;
+  color: rgb(245, 118, 184);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.newrole .join-company .profiles img {
+  width: 30px;
+}
+
+.newrole .join-company .profiles {
+  margin-left: 10px;
+}
+
+
+@media (min-width:402px) and (max-width:630px) {
+  .newrole .join-company {
+      width: 100%;
+      height:120px;
+      margin-top: 30px;
+
+  }
+  .newrole .join-company .profiles {
+      margin: 5px;
+      padding: 5px;
+  }
+  .newrole .join-company .profiles img{
+      display: none;
+  }
+
+}
+
+@media (min-width:320px) and (max-width:400px) {
+  .newrole .join-company .profiles img {
+     display: none;
+  }
+    .newrole .join-company {
+      width: 100%;
+      height: 120px;
+      margin-top: 30px;
+      justify-content: center;
+      padding-right: 5px;
+  }
+  .newrole .join-company .selec-company p{
+      width: 100%;
+  }
+
+}

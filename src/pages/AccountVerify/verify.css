@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.containerGeneral {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/background.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    min-height: 67vh;
+    width: 70%;
+    gap: 2rem;
+    background-color: rgb(225, 225, 225);
+    box-shadow:  25px 25px 50px #000000, -25px -25px 50px #191919;
+    
+}
+
+#h1verify{
+    font-size: 58px;
+    text-align: center;
+    width: 80%;
+    margin: 0px;
+    color: #000000;
+}
+
+.anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    left: 0px;
+    top: 144px;
+    border-radius: 6px;
+    padding: 16px;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 1rem;
+}

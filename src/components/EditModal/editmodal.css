@@ -1,0 +1,81 @@
+.edit-modal{
+    position: fixed;
+    top: 0;
+    width: 40vw;
+    height: 60vh;
+    background: #D1FBF0;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 15vh;
+}
+
+.edit-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.edit-title>h2{
+    text-align: center;
+    color: #00BA88;
+}
+
+.edit-title>img{
+    padding: 3px;
+    background-color: #424242;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.manga-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5.364vh;
+}
+
+.manga-input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #424242;;
+    height: 2.467vh;
+}
+#selectMove {
+    border: 0;
+    width: 100%;
+    color: gray;
+    font-size: 0.9rem;
+    height: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.send-Btn{
+    width: 100%;
+    height: 7.403vh;
+    background: rgba(209, 251, 240, 1);
+    border-radius: 50000px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00BA88;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .mangas .mangas-displayed .mangas-cards .edit-modal{
+        width: 80%;
+    }
+}

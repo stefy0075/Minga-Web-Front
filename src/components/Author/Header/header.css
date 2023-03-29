@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.p-author{
+    text-transform: capitalize;  
+}
+
+.container2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem;
+    padding: 0px 10px;
+}
+
+.containerGeneral{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerHeader{
+    padding-top: 5em;
+    min-height: 15em;
+    width: 80%;
+}
+
+.iconLocalidad{
+    width: 1.3em;
+    height: 1.3em;
+    object-fit: contain;
+    padding-top: 0.1em;
+    margin-right: 0.2rem;
+}
+.icon-editar{
+    width: 1.3em;
+    height: 1.3em;
+    object-fit: contain;
+}
+
+.iconCumple{
+    width: 1.3em;
+    height: 1.3em;
+    object-fit: contain;
+    padding-top: 0.3em;
+    margin-right: 0.2rem;
+}
+
+.imgAuthor{
+    width: 14em;
+    height: 14em;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.containerAuthorDetails{
+    width: 93%;
+    display: flex;
+    color: grey;
+    flex-direction: column;
+    align-items: left;
+    font-size: 0.8em;
+    margin-top: 0,5rem;
+}
+
+.fotoAuthor{
+    color: rgb(0, 0, 0);
+    font-size: 0.4em;
+    text-align: center;
+    margin: 0em 1rem 0rem 0rem;
+}
+
+.div-detail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nombreAuthor{
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    padding-left: 0.1em;
+    align-content: space-around;
+    margin-bottom: 0.5rem;
+}
+.descripcionAuthor{
+    color: grey;
+    padding-bottom: 1rem;
+    margin: 1em 1em;
+    font-size: 0.8em;
+    text-align: justify;
+    border-bottom: 2px solid black;
+}
+
+@media (min-width: 319px)  and (max-width: 767px){
+
+    .containerHeader{
+    width: 100%;
+}
+}

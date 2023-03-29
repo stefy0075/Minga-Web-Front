@@ -1,0 +1,81 @@
+.btns{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+}
+
+.btns .btnR a, .btns .btnL a{
+    width: 384px;
+    height: 48px;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    letter-spacing: 0.05em;
+    box-shadow: 5px 5px rgb(244, 179, 51);
+    text-decoration: none;
+}
+
+.btns .btnR{
+    width: 50vw;
+    height: 100vh;
+    background: url('../../images/vilage.svg') rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 2rem;
+    box-shadow: #000 0px 0px 20px;
+}
+
+.btns .btnL{
+    width: 50vw;
+    height: 100vh;
+    background: url('../../images/LogIn.png') rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem 0 1rem;
+    box-shadow: #000 0px 0px 20px;
+}
+
+.auth .register{
+    animation: rollLeft 0.5s ease;
+}
+
+.auth .login{
+    animation: rollRight 0.5s ease;
+}
+
+@keyframes rollLeft{
+    0%{
+        margin-left: -100vw;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+@keyframes rollRight{
+    0%{
+        margin-left: 100vw;
+    }
+    100%{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,63 @@
+#chapterbox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chapterbox #chaptercontent{
+    width: 65.11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.54vh;
+}
+
+#chapterbox #chaptercontent #newchapter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.04vh;
+}
+
+#chapterbox #chaptercontent #newchapter h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 69.0625vw;
+}
+
+
+#chapterbox #chaptercontent #chaptherform{
+    display: flex;
+    flex-direction: column;
+    gap: 5.364vh;
+}
+
+#chapterbox #chaptercontent #chaptherform .chaptherinput{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #424242;;
+    height: 2.467vh;
+}
+
+#chapterbox #chaptercontent #chaptherform #send{
+    width: 65.11vw;
+    height: 7.403vh;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    border-radius: 50000px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin: 0 auto;
+}

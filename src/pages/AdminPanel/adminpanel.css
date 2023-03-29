@@ -1,0 +1,76 @@
+.contenedor-adminpanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#profileBackground {
+  background-image: url(../../images/Frame_16.png);
+  background-size: cover;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+.sectionAdminPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  width: 95%;
+  height: auto;
+  position: static;
+  margin-top:-7rem;
+  margin-bottom: 1rem;
+  padding-bottom: 3px;
+  border-radius: 1rem;
+  color: #F9A8D4;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+.sectionAdminPanel .title-adminPanel{
+  width: 100%;
+  height: 5vh;
+  color: #F9A8D4;
+  font-family: 'Montserrat';
+  font-style: normal;
+  margin-top: 2rem;
+}
+
+@media (max-width: 748px) {
+  #profileBackground {
+      display: none;
+  }
+  .sectionProfile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      background: rgb(255, 255, 255);
+      width: 95%;
+      min-height: 20vh;
+      position: static;
+      margin-top: 0;
+      z-index: 100;
+      border-radius: 1rem;
+      margin-bottom: 3rem;
+  }
+  .contenedor-adminpanel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 4rem;
+  }
+}
+
+@media (min-width:320px) and (max-width:630px) {
+  .sectionAdminPanel .title-adminPanel{
+    margin-top: 10rem;
+  }
+}

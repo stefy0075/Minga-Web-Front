@@ -1,0 +1,98 @@
+footer .subscribe-section{
+    width: 74.583vw;
+    height: 19.53vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13.819vw;
+    margin: 0 auto;
+    background: #FFFFFF;
+    position: absolute;
+    top: 20vh;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0;
+}
+
+footer .subscribe-section h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #222222;
+}
+
+footer .subscribe-section .subscribe-container{
+    width: 35.416vw;
+    height: 7.56vh;
+    border: 2px solid rgba(34, 34, 34, 10%);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8.5px 0 24px;
+}
+
+footer .subscribe-section .subscribe-container input{
+    border: none;
+    background: transparent;
+    color: #2B3D51;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 15vw;
+}
+
+footer .subscribe-section .subscribe-container .subscribe-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 14vw;
+    height: 5.27vh;
+}
+
+@media (max-width: 1023px){
+    footer .subscribe-section{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    footer .subscribe-section .subscribe-container{
+        width: 50vw;
+    }
+
+    footer .subscribe-section .subscribe-container input{
+        width: 30vw;
+        text-align: center;
+    }
+
+    footer .subscribe-section .subscribe-container .subscribe-submit{
+        width: 20vw;
+    }
+}
+
+@media (max-width: 767px){
+    footer .subscribe-section{
+        height: auto;
+        padding: 5px 0;
+    }
+
+    footer .subscribe-section .subscribe-container{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 5px 0;
+    }
+
+    footer .subscribe-section .subscribe-container input{
+        width: 80%;
+        text-align: center;
+    }
+
+    footer .subscribe-section .subscribe-container .subscribe-submit{
+        width: 80%;
+    }
+}

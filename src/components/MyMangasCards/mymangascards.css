@@ -1,0 +1,71 @@
+.card_add-text .addImage{
+    margin-left: 1rem;
+    padding: .5rem;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("../../images/addIcon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.createAndEdit-icons{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.createAndEdit-icons img {
+width: 20px; 
+} 
+
+.actions-btns{
+    display: flex;
+    gap: 5px;
+}
+
+.myMangas-card-anchor{
+    text-decoration: none;
+    background: rgba(209, 251, 240, 1);
+    width: 92px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 50px;
+    color: #00BA88;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 95.19%;
+}
+
+.editBtn{
+    background-color: #E0DBFF;
+    color: #8883F0;
+}
+
+.deleteBtn{
+    background-color: #FBDDDC;
+    color: #EE8380;
+}
+
+.myMangas-card-anchor:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+.card{
+        width: 68.75vw;
+        height: 144px;
+    }
+
+.card-text .text{
+        margin-bottom: 15%;
+        gap: 10px;
+    }
+}

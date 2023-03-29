@@ -1,0 +1,44 @@
+.newrole .image-newrole {
+  min-width: 50vw;
+  height: 100vh;
+  background-image: url('../../images/back-newrol.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+.newrole-contain{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  gap: 3rem;
+  margin-left: 5rem;
+}
+
+.image-newrole .text-newrole {
+  width: 495px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.quote-newrole{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width:1000px) {
+  .newrole .image-newrole {
+      display: none;
+  }
+}

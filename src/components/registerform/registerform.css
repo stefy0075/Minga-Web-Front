@@ -1,0 +1,102 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+.form .notification-check{
+    border: none;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: auto;
+}
+
+.form .notification-check input{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.form .notification-check label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #1F1F1F;
+}
+
+.form .sign-up{
+    width: 384px;
+    height: 48px;
+    background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    letter-spacing: 0.05em;
+    box-shadow: 5px 5px rgb(244, 179, 51);
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.form .sign-in-google{
+    width: 384px;
+    height: 48px;
+    background: #EBEBEB;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.form .sign-in-google span{
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+}
+
+.form>p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+.form>p .link{
+    text-decoration: none;
+    color: rgb(245, 118, 184);
+    font-weight: bold;
+}
+
+#google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 814px){
+    .form .sign-up{
+        width: 300px;
+    }
+
+    .form .sign-in-google{
+        width: 300px;
+    }
+}

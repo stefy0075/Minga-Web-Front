@@ -1,0 +1,78 @@
+.mangas .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.789vh;
+    min-height: 62.89vh;
+    padding-top: 25.39vh;
+    padding-bottom: 17.18vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/mangas-background.png);
+    background-size: 100vw 62.89vh;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.mangas .title>h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95.19%;
+    color: #FFFFFF;
+}
+
+.mangas .title .search-bar{
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    gap: 2.32vw;
+    width: 62.5vw;
+    height: 5.566vh;
+    background: #EBEBEB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.mangas .title .search-bar img{
+    height: 37px;
+    width: 37px;
+}
+
+.mangas .title .search-bar form{
+    width: 100%;
+}
+
+.mangas .title .search-bar input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95.19%;
+    color: #9795A4;
+    overflow: hidden;
+    width: 100%;
+    background: transparent;
+}
+
+@media (max-width: 768px){
+    .mangas .title{
+        gap: 59px;
+        padding-bottom: 0;
+        padding-top: 91px;
+        height: 440px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/mangas-background.png);
+        background-size: 100vw 62.89vh;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+    }
+
+    .mangas .title h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 95.19%;
+    }
+
+    .mangas .title .search-bar{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 80px;
+    }
+}

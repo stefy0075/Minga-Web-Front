@@ -1,0 +1,76 @@
+.mangas{
+    min-height: 100vh;
+}
+
+.mangas .myMangas-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.789vh;
+    min-height: 62.89vh;
+    padding-top: 25.39vh;
+    padding-bottom: 17.18vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/mymangas_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.mangas .myMangas-title>h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95.19%;
+    text-align: center;
+}
+
+.myMangas .mangas-displayed{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 45px 12.5vw;
+    width: 93.61vw;
+    margin: 0 auto;
+    margin-top: -69px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 38px -30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.myMangas .mangas-displayed>h2{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .myMangas .mangas-displayed{
+        margin-top: -147px;
+        padding: 45px 15.625vw;
+        width: 100vw;
+    }
+
+    .myMangas .mangas-displayed>h2{
+        display: block;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 95.19%;
+        color: #222222;
+    }
+
+    .mangas .myMangas-title>h2{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 95.19%;
+    }
+}
+
+@media (max-width: 429px){
+    .myMangas .mangas-displayed .mangas-cards .card{
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .myMangas .mangas-displayed{
+        padding: 45px 10px;
+    }
+}

@@ -1,0 +1,122 @@
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.manga-btn{
+  width: 195.63px;
+  height: 34.31px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;  
+  color: #FFFFFF;
+}
+
+.btnpink{
+  background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+  color: #FFFFFF;
+  margin: 0px;
+  width: 200px;
+}
+
+.mangadesc p{
+  text-align: center;
+  margin-bottom: 10px;
+  width: 40rem;
+}
+
+
+.chaptercontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin: 20px 0px 20px 0px;
+}
+
+.chapterimg{
+  width: 15%;
+  height: 6%;
+  border-radius: 8px;
+}
+
+.order-chapter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+.comment{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 15rem;
+}
+
+.comment img{
+  width: 28px;
+  height: 28px;
+}
+.btn-read {
+  width: 151px;
+  height: 74px;
+  background: linear-gradient(153.39deg, #F9A8D4 -13.9%, #F472B6 58.69%);
+  border-radius: 40px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+
+}
+
+@media (min-width:320px) and (max-width:768px) { 
+  .chapterimg{
+    width: 5rem;
+    height: 5rem;
+  }
+  .chaptercontainer{
+    width: 100%;
+    height: 74px;
+  }
+  .btn-read {
+    width: 120px;
+    height: 60px;   
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .order-chapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+  }
+
+  .p-chapter{
+    font-size: 16px;
+  }
+  .mangadesc{
+    width: 100vw;
+  }
+  .mangadesc p{
+    width: 100%;
+  }
+  .buttons{
+    width: 100vw;
+  }
+
+}
